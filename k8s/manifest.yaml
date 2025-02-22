@@ -46,3 +46,13 @@ spec:
       targetPort: 8000
   selector:
     app: backend
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysql-secret
+type: Opaque
+data:
+  root-password: Ymlub2Q=
+  username: Ymlub2Q=
+  password: Ymlub2Q=
