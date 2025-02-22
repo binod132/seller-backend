@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: your-dockerhub-username/seller-backend:latest
+          image: binod132/seller-backend:latest
           ports:
             - containerPort: 8000
           env:
